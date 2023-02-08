@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11 kenny, 11, LIC=QF82M-X6YAE-Z9VG9-4GRGS-H8EHV-1WF12
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.25.2.0
+Toolchain Path:  D:\KEil00\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+D:\桌面文件\物联网实验项目\农业物联网\农业物联网系统温湿度传感器及相关配件烧写\USER\Template.uvprojx
+Project File Date:  10/10/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\KEil00\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling main.c...
+main.c(59): warning:  #1295-D: Deprecated declaration stm32flash_stroage - give arg types
+  void stm32flash_stroage();		//存储flash数据
+main.c(60): warning:  #1295-D: Deprecated declaration esp8266_init - give arg types
+  void esp8266_init();		//wifi初始化
+main.c(63): warning:  #1295-D: Deprecated declaration senddata - give arg types
+  void senddata();
+main.c(64): warning:  #1295-D: Deprecated declaration nowifi_Fan - give arg types
+  void nowifi_Fan();
+main.c(471): warning:  #186-D: pointless comparison of unsigned integer with zero
+  				if(value >= 0 && value < 9 )
+main.c(480): warning:  #186-D: pointless comparison of unsigned integer with zero
+  				if(value1 >= 0 && value1 < 9 )
+main.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=15252 RO-data=4136 RW-data=268 ZI-data=5380  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Template
+  D:\KEil00\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
